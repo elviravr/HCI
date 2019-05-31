@@ -186,7 +186,7 @@ main {
 }
 
 #article1 {
-    background-image: url("elvira.jpg");
+    background-image: url("styles/elvira.jpg");
 /*    background-blend-mode: screen;*/
     grid-area: articleone;
     padding-top: 0px;
@@ -219,6 +219,7 @@ main {
 
 #article2 {
     grid-area: articletwo;
+    height: 100px;
 }
 
 #article3 {
