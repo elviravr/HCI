@@ -186,8 +186,7 @@ main {
 }
 
 #article1 {
-    background-image: url("styles/elvira.jpg");
-/*    background-blend-mode: screen;*/
+    background-image: url("elvira.jpg");
     grid-area: articleone;
     padding-top: 0px;
     background-size: 700px;
