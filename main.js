@@ -20,3 +20,7 @@ $(function() {
     $(".menu-list .accordion-toggle").not(jQuery(this)).removeClass("active-tab").find(".menu-link").removeClass("active");
   });
 });
+
+$(document).on("click", ".days", function() {
+  $(this).next(".explanation").toggleClass("active");
+});

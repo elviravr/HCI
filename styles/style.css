@@ -265,7 +265,6 @@ sup {
 }
 
 img, iframe {
-    max-width: 275px;
     max-height: 400px;
     display: block;
     margin-top: 20px;
@@ -273,6 +272,9 @@ img, iframe {
     margin-left: auto;
     margin-right: auto;
 }
+
+img {
+    max-width: 276px;}
 
 strong {
     font-weight: bold;
@@ -306,6 +308,17 @@ footer p {
     margin: 0;
 }
 
+#poster {
+    min-width: 580px;
+    text-align: center;
+    padding-right: 310px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+}
+
 #article2 img, #article3 img, #article4 img {
     max-width: 150px;
 }
@@ -333,11 +346,56 @@ figure, iframe {
 }
 
 iframe {
-        margin: 30px 0px 0px 0px;
+    margin-top: 30px;
+}
+
+#vimeo {
+    margin: 30px 0px 0px 0px;
+    height: 150px;
 }
 
 figcaption {
     font-size: 12px;
     margin-top: 0px;
     padding-top: 0px;
+}
+
+.explanation {
+    padding: 10px;
+    transition: 30ms;
+    transform: perspective(0px) rotateX(-90deg);
+    transform-origin: 50% 0;
+    height: 0;
+}
+
+.explanation.active {
+    transform: none;
+    height: auto;
+}}
+
+.explanation {
+    transition: 500ms;
+}
+
+.days {
+    cursor: pointer;
+}
+
+.days > h2 {
+    margin: 0 auto;
+}
+
+#definition {
+    font-size: 12px !important;
+    font-family: georgia;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+#info {
+    font-size: 12px !important;
+    font-family: georgia;
+    font-style: italic;
+    padding-bottom: 10px;
+    text-align: center;
 }
